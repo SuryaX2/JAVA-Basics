@@ -21,11 +21,16 @@ class NssMarks extends GradeCard {
         super(name, m1, m2, m3, m4, m5);
         this.nss = nss;
     }
-    void showResult() {
+    void show() {
         System.out.println(name + "'s GradeCard:");
         System.out.println("CS:" + m1 + "\nHSMC:" + m2 + "\nOS:" + m3 + "\nCOA:" + m4 + "\nCHEM:" + m5 + "\nNSS:" + nss);
     }
 }
 public class poly2 {
-    
+    public static void main(String[] args) {
+        GradeCard c = new GradeCard("Student 1",80, 75, 90, 65, 85);
+        c.show();
+        GradeCard c1 =new NssMarks("Student2", 70, 89, 78, 85,96, 10);
+        c1.show();
+    }
 }
