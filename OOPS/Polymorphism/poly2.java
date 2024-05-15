@@ -1,5 +1,3 @@
-package OOPS.Polymorphism;
-
 class GradeCard {
     String name;
     double m1, m2, m3, m4, m5;
@@ -15,6 +13,7 @@ class GradeCard {
         System.out.println(name + "'s GradeCard:");
         System.out.println("CS:" + m1 + "\nHSMC:" + m2 + "\nOS:" + m3 + "\nCOA:" + m4 + "\nCHEM:" + m5);
     }
+}
 class NssMarks extends GradeCard {
     double nss;
     NssMarks(String name, double m1, double m2, double m3, double m4, double m5, double nss) {
