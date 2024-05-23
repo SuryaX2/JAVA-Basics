@@ -16,7 +16,7 @@ class cir implements Area {
 }
 class squ implements Area {
     double a;
-    cir() {
+    squ() {
         Scanner s = new Scanner(System.in);
         r = s.nextDouble();
     }
