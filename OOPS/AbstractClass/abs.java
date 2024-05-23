@@ -1,5 +1,5 @@
 abstract class Area{
-    
+    abstract void area();
 }
 
 public class abs {
