@@ -3,12 +3,12 @@ interface Area {
     void area();
 }
 
-class circle implements Area {
+class cir implements Area {
     void area() {
         
     }
 }
-class square implements Area {
+class squ implements Area {
     
 }
 class inter {
