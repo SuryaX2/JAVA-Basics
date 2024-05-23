@@ -1,8 +1,8 @@
+package OOPS.AbstractClass;
 abstract class Area {
     double l, b;
     abstract void area();
 }
-
 class tri extends Area {
     tri(double x,double y) {
         l = x;
