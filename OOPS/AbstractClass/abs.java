@@ -23,6 +23,6 @@ class rect extends Area {
 }
 public class abs {
     public static void main(String[] args) {
-        
+        tri t = new tri(5, 5);
     }
 }
