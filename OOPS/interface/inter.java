@@ -5,10 +5,11 @@ interface Area {
 }
 class cir implements Area {
     cir() {
-        
+        Scanner s=new Scanner(System.in);
+        double r = s.nextDouble();
     }
     void area() {
-        
+        System.out.println("Area of Circle");
     }
 }
 class squ implements Area {
