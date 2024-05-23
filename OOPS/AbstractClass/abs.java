@@ -1,5 +1,5 @@
 class abstract area{
-
+    
 }
 
 public class abs {
