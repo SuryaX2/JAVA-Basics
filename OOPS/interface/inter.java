@@ -1,10 +1,7 @@
-/**
- * Innerinter
- */
-public interface Innerinter {
-
-    
+interface Area {
+    void area();
 }
+
 class inter {
     
 }
