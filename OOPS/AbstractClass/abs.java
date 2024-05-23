@@ -4,7 +4,7 @@ abstract class Area {
 }
 
 class tri extends Area {
-    tri() {
+    tri(double x,double y) {
         
     }
     void area() {
