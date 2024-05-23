@@ -9,7 +9,7 @@ class tri extends Area {
         b = y;
     }
     void area() {
-        
+        System.out.println("Area of Triangle : "+(l*b)/2);
     }
 }
 
