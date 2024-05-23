@@ -13,7 +13,7 @@ class cir implements Area {
     }
 }
 class squ implements Area {
-    cir() {
+    squ() {
         
     }
     void area() {
