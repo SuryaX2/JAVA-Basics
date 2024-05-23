@@ -7,7 +7,7 @@ interface Area {
 class cir implements Area {
     double r;
     cir() {
-        Scanner s=new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         r = s.nextDouble();
     }
     void area() {
