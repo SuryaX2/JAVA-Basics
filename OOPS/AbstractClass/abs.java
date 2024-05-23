@@ -12,6 +12,9 @@ class tri extends Area {
 }
 
 class rect extends Area {
+    rect() {
+        
+    }
     void area() {
         
     }
