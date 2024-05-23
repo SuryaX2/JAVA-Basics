@@ -3,7 +3,9 @@ interface Area {
 }
 
 class circle implements Area {
-    
+    void area() {
+        
+    }
 }
 class square implements Area {
     
