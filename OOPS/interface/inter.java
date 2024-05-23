@@ -16,6 +16,9 @@ class squ implements Area {
     cir() {
         
     }
+    void area() {
+        
+    }
 }
 class inter {
     public static void main(String[] args) {
