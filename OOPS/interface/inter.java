@@ -3,5 +3,7 @@ interface Area {
 }
 
 class inter {
-    
+    public static void main(String[] args) {
+        
+    }
 }
