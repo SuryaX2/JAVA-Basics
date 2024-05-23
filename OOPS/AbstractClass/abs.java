@@ -1,4 +1,5 @@
-abstract class Area{
+abstract class Area {
+    double l, b;
     abstract void area();
 }
 
