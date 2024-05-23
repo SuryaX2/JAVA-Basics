@@ -1,4 +1,5 @@
 interface Area {
+    double pi = 3.14;
     void area();
 }
 
