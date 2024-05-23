@@ -21,7 +21,7 @@ class squ implements Area {
         a = s.nextDouble();
     }
     public void area() {
-        System.out.println("Area of Circle : "+ pi*r*r);
+        System.out.println("Area of Circle : "+ a*a);
     }
 }
 class inter {
