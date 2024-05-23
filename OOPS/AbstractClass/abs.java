@@ -1,4 +1,4 @@
-class abstract area{
+abstract class area{
     
 }
 
