@@ -9,7 +9,9 @@ class triangle extends Area {
 }
 
 class rect extends Area {
-    
+    void area() {
+        
+    }
 }
 public class abs {
     public static void main(String[] args) {
