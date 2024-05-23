@@ -5,6 +5,9 @@ interface Area {
 class circle implements Area {
     
 }
+class circle implements Area {
+    
+}
 class inter {
     public static void main(String[] args) {
         
