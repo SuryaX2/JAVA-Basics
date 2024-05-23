@@ -3,6 +3,7 @@ abstract class Area{
 }
 
 class triangle extends Area {
+    
     void area() {
         
     }
