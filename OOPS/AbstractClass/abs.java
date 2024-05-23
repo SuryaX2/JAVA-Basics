@@ -12,7 +12,6 @@ class tri extends Area {
         System.out.println("Area of Triangle : "+(l*b)/2);
     }
 }
-
 class rect extends Area {
     rect(double x,double y) {
         l = x;
