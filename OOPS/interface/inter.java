@@ -18,7 +18,7 @@ class squ implements Area {
     double a;
     squ() {
         Scanner s = new Scanner(System.in);
-        r = s.nextDouble();
+        a = s.nextDouble();
     }
     public void area() {
         System.out.println("Area of Circle : "+ pi*r*r);
