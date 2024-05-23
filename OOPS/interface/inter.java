@@ -3,13 +3,15 @@ interface Area {
     double pi = 3.14;
     void area();
 }
+
 class cir implements Area {
+    double r;
     cir() {
         Scanner s=new Scanner(System.in);
-        double r = s.nextDouble();
+        r = s.nextDouble();
     }
     void area() {
-        System.out.println("Area of Circle");
+        System.out.println("Area of Circle : "+ pi*r*r);
     }
 }
 class squ implements Area {
