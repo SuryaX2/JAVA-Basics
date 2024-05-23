@@ -13,7 +13,9 @@ class cir implements Area {
     }
 }
 class squ implements Area {
-    
+    cir() {
+        
+    }
 }
 class inter {
     public static void main(String[] args) {
