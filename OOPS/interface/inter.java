@@ -5,7 +5,7 @@ interface Area {
 class circle implements Area {
     
 }
-class circle implements Area {
+class square implements Area {
     
 }
 class inter {
