@@ -26,6 +26,6 @@ public class abs {
         Area t = new tri(5, 5);
         t.area();
         t = new rect(5, 5);
-        
+        t.area();
     }
 }
