@@ -15,11 +15,13 @@ class cir implements Area {
     }
 }
 class squ implements Area {
-    squ() {
-        
+    double a;
+    cir() {
+        Scanner s = new Scanner(System.in);
+        r = s.nextDouble();
     }
-    void area() {
-        
+    public void area() {
+        System.out.println("Area of Circle : "+ pi*r*r);
     }
 }
 class inter {
