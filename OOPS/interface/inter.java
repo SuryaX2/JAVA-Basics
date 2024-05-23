@@ -4,6 +4,9 @@ interface Area {
 }
 
 class cir implements Area {
+    cir() {
+        
+    }
     void area() {
         
     }
