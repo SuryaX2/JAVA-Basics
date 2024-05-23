@@ -14,7 +14,7 @@ class tri extends Area {
 }
 
 class rect extends Area {
-    rect() {
+    rect(double x,double y) {
         l = x;
         b = y;
     }
