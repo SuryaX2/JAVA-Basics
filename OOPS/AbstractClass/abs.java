@@ -2,8 +2,8 @@ abstract class Area{
     abstract void area();
 }
 
-class triangle extends Area {
-    
+class tri extends Area {
+
     void area() {
         
     }
