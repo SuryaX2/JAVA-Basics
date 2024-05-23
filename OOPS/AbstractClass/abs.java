@@ -1,4 +1,4 @@
-package OOPS.AbstractClass;
+// package OOPS.AbstractClass;
 abstract class Area {
     double l, b;
     abstract void area();
