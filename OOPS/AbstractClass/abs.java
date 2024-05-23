@@ -19,7 +19,7 @@ class rect extends Area {
         b = y;
     }
     void area() {
-        System.out.println("Area of Rectangle : "+(l*b)/2);
+        System.out.println("Area of Rectangle : "+l*b);
     }
 }
 public class abs {
