@@ -26,6 +26,9 @@ class squ implements Area {
 }
 class inter {
     public static void main(String[] args) {
-        
+        Area a = new cir();
+        a.area();
+        a = new squ();
+        a.area();
     }
 }
