@@ -21,7 +21,6 @@ class thread {
         t1.start();
         System.out.println("Current Thread: " + Thread.currentThread().getName());
         t1.join();
-
         t2.start();
         System.out.println("Current Thread: " + Thread.currentThread().getName());
         t2.join();
