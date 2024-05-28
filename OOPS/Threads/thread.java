@@ -5,7 +5,7 @@ class ThreadJoining extends Thread {
         for (int i = 0; i < 2; i++) {
             try {
                 Thread.sleep(300);
-                System.out.println("Current Thread: " + Thread.currentThread().getName());
+                System.out.println("Current Thread   : " + Thread.currentThread().getName());
             } catch (Exception ex) {
                 System.out.println("Exception has" + " been caught" + ex);
             }
