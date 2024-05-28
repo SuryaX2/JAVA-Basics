@@ -26,11 +26,7 @@ class thread {
             System.out.println("Exception has " + "been caught" + ex);
         }
         t2.start();
-        try {
-            System.out.println("Current Thread: " + Thread.currentThread().getName());
-            t2.join();
-        } catch (Exception ex) {
-            System.out.println("Exception has been" + " caught" + ex);
-        }
+        System.out.println("Current Thread: " + Thread.currentThread().getName());
+        t2.join();
     }
 }
