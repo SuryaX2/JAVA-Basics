@@ -1,5 +1,5 @@
-package OOPS.Threads;
 import java.io.*;
+
 class ThreadJoining extends Thread {
     public void run() {
         for (int i = 0; i < 2; i++) {
@@ -13,6 +13,7 @@ class ThreadJoining extends Thread {
         }
     }
 }
+
 class thread {
     public static void main(String[] args) {
         ThreadJoining t1 = new ThreadJoining();
