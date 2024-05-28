@@ -19,12 +19,9 @@ class thread {
         ThreadJoining t1 = new ThreadJoining();
         ThreadJoining t2 = new ThreadJoining();
         t1.start();
-        try {
-            System.out.println("Current Thread: " + Thread.currentThread().getName());
-            t1.join();
-        } catch (Exception ex) {
-            System.out.println("Exception has " + "been caught" + ex);
-        }
+        System.out.println("Current Thread: " + Thread.currentThread().getName());
+        t1.join();
+
         t2.start();
         System.out.println("Current Thread: " + Thread.currentThread().getName());
         t2.join();
