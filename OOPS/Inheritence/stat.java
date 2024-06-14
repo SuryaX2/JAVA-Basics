@@ -1,5 +1,5 @@
 class stat {
-    static void show() {
+    void show() {
         System.out.println("This is Show");
     }
 
