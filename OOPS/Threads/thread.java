@@ -1,9 +1,9 @@
-class ThreadJoining extends Thread {
+class ThreadJoining extends ThreadQuestion {
     public void run() {
         for (int i = 0; i < 2; i++) {
             try {
-                Thread.sleep(300);
-                System.out.println("Current Thread: " + Thread.currentThread().getName());
+                ThreadQuestion.sleep(300);
+                System.out.println("Current Thread: " + ThreadQuestion.currentThread().getName());
             } catch (Exception ex) {
                 System.out.println("Exception has" + " been caught" + ex);
             }
@@ -17,14 +17,14 @@ class thread {
         ThreadJoining t2 = new ThreadJoining();
         t1.start();
         try {
-            System.out.println("Current Thread: " + Thread.currentThread().getName());
+            System.out.println("Current Thread: " + ThreadQuestion.currentThread().getName());
             t1.join();
         } catch (Exception ex) {
             System.out.println("Exception has " + "been caught" + ex);
         }
         t2.start();
         try {
-            System.out.println("Current Thread: " + Thread.currentThread().getName());
+            System.out.println("Current Thread: " + ThreadQuestion.currentThread().getName());
             t2.join();
         } catch (Exception ex) {
             System.out.println("Exception has been" + " caught" + ex);

@@ -1,10 +1,10 @@
 import java.lang.*; 
 
-public class gfg extends Thread
+public class gfg extends ThreadQuestion
 {  
 	public void run() 
 	{  
-			Thread t=Thread.currentThread();
+			ThreadQuestion t=ThreadQuestion.currentThread();
       		System.out.println("status: "+t.isAlive());
 			t.join();
       		System.out.println("status: "+t.isAlive());
